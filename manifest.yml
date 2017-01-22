@@ -1,11 +1,14 @@
 applications:
 - path: .
-  memory: 512M
+  memory: 768M
   instances: 1
   domain: mybluemix.net
-  name: IOTWMWtemp
-  host: IOTWMWtemp
+  name: IOTWMW
+  host: IOTWMw
   disk_quota: 1024M
   services:
-  - IOTWMWtemp-cloudantNoSQLDB
-  - IOTWMWtemp-iotf-service
+  - Internet of Things Platform-y4
+  - IOTWMW-cloudantNoSQLDB
+  - Weather Company Data for IBM Bluemix-vw
+  - Visual Recognition-oo
+
