@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOTWMWtemp
+  host: IOTWMWtemp
+  disk_quota: 1024M
+  services:
+  - IOTWMWtemp-cloudantNoSQLDB
+  - IOTWMWtemp-iotf-service
