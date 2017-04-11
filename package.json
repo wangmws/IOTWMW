@@ -19,9 +19,7 @@
         "node-red-contrib-ibmpush":"0.x",
         "node-red-contrib-bluemix-hdfs":"0.x",
         "node-red-nodes-cf-sqldb-dashdb":"0.x",
-        "node-red-contrib-ui":"1.2.19",
-		"node-red-contrib-aggregator":"1.0.4",
-		"node-red-contrib-mssql":"0.0.x",
+        "node-red-contrib-mssql":"0.0.x",
 		"node-red-node-random":"0.0.x"
     },
     "scripts": {
